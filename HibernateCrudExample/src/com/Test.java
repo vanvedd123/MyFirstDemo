@@ -10,7 +10,7 @@ public class Test {
 	
 	public static void main(String[] args) {
 		
-System.out.print("Main Method started...");
+System.out.print("......Main Method started...");
 		SessionFactory sf = HibenrateUtil.getSessionFactory();
 		
 		Session session = sf.openSession();
